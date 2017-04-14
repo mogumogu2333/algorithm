@@ -1,8 +1,10 @@
+package backtracking;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LetterCombinationPhoneNumber_17 {
+public class M17_LetterCombinationPhoneNumber {
 	private static final String[] KEYS = { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
 	
 	public List<String> letterCombinations(String digits) {
@@ -49,7 +51,7 @@ public class LetterCombinationPhoneNumber_17 {
 	}
 	
 	public static void main(String[] args) {
-		LetterCombinationPhoneNumber_17 sol = new LetterCombinationPhoneNumber_17();
+		M17_LetterCombinationPhoneNumber sol = new M17_LetterCombinationPhoneNumber();
 		
 		List<String> ret = sol.letterCombinations("7");
 		for(String s:ret){
