@@ -1,4 +1,5 @@
-package linkedlist;
+package not_passed;
+//package linkedlist;
 
 import java.util.HashMap;
 

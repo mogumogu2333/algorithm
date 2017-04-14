@@ -1,4 +1,4 @@
-package dynamic_programming;
+package not_passed;
 
 public class M91_DecodeWays {
 	public int numDecodings(String s) {

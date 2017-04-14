@@ -1,4 +1,5 @@
-package math;
+//package math;
+package not_passed;
 
 public class M79_WordSearch {
 	public boolean exist(char[][] board, String word) {
